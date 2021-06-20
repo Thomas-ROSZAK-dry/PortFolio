@@ -1,8 +1,14 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-Vue.config.productionTip = false
+import router from './router/router';
 
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+// on démarre notre application Vue 
+// en instanciant notre composant App dans l'élément '#app"
+// déclarer qu'on utilise l'instance de VueRouter définie dans "router/router.js"
+new Vue({ 
+  router, // revient à écrire router: router
+  render: createElement => createElement(App) 
+}).$mount('#app');
+// $ mount = utilise le premier élément donné
+
