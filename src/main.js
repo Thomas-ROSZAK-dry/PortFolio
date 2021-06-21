@@ -10,5 +10,5 @@ new Vue({
   router, // revient à écrire router: router
   render: createElement => createElement(App) 
 }).$mount('#app');
-// $ mount = utilise le premier élément donné
+
 
