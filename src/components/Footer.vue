@@ -1,5 +1,9 @@
 <template>
-    <div></div>
+    <div>
+    <p>Copyright Thomas ROSZAK</p>
+
+
+    </div>
 </template>
 
 <script>

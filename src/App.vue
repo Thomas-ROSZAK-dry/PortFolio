@@ -32,5 +32,12 @@ export default Vue.extend({
 </script>
 
 <style lang="scss">
-
+body {
+background-image: url("https://image.freepik.com/vecteurs-libre/papier-peint-motif-etoiles-filantes-pastel-scintillant_53876-99195.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+height:100vh;
+width: auto;
+}
+ 
 </style>

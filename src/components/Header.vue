@@ -3,7 +3,7 @@
    <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="https://bulma.io">
-      <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+      <img src="https://image.flaticon.com/icons/png/512/1085/1085996.png" width="auto" height="auto">
     </a>
 
     <a role="button" class="navbar-burger" id="burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -28,28 +28,22 @@
             <router-link :to= "{name:'About'}">About</router-link>
           </a>
           <a class="navbar-item">
-            Jobs
+            <router-link :to= "{name:'Resume'}">Resume</router-link>
           </a>
           <a class="navbar-item">
-            Contact
+           <router-link :to= "{name:'Projects'}">Projects</router-link>
           </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item">
-            Report an issue
-          </a>
-        </div>
+          </div>
       </div>
     </div>
 
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
+          <a class="">
+            <strong><router-link :to= "{name:'Contact'}">Contact</router-link></strong>
           </a>
-          <a class="button is-light">
-            Log in
-          </a>
+         
         </div>
       </div>
     </div>
@@ -58,14 +52,10 @@
 
 </template>
 
-<!-- <div class="navbar-menu" id="nav-links">
-    <div class="navbar-end">
-     <a class="navbar-item"><router-link :to= "{name:'Home'}">Home</router-link></p></a>
-     <a class="navbar-item"><router-link :to= "{name:'About'}">About</router-link></a>
-     <a class="navbar-item"><router-link :to= "{name:'Resume'}">Resume</router-link></a>
-      <a class="navbar-item"><router-link :to= "{name:'Projects'}">Projects</router-link></a>
-      <a class="navbar-item"><router-link :to= "{name:'Contact'}">Contact</router-link></a>
-  </div> -->
+
+     <a class="navbar-item"></a>
+      <a class="navbar-item"><</a>
+      
 
 <script>
 window.onload=function(){
