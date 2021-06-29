@@ -33,5 +33,4 @@ export default Vue.extend({
 
 <style lang="scss">
 
-
 </style>

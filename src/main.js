@@ -11,4 +11,3 @@ new Vue({
   render: createElement => createElement(App) 
 }).$mount('#app');
 
-

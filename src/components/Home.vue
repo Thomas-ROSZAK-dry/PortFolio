@@ -1,5 +1,7 @@
 <template>
+
     <div>
+   
     <p> THOMAS ROSZAK The Odyssey of a Web Developper</p>
     <p><img src="" alt=""></p>
     <p>Hi  👋
