@@ -4,7 +4,9 @@
         <Header></Header>
         <RouterView></RouterView>
         <Footer></Footer>
-    </div>
+      
+          </div>
+   
 </template>
 
 <script>
@@ -15,6 +17,8 @@ import Vue from "vue";
 import Header from './components/Header';
 import Footer from './components/Footer';
 
+
+
 export default Vue.extend({
   // on définit des données valables dans ce composant
   
@@ -22,9 +26,8 @@ export default Vue.extend({
   components: {
       Header,
       Footer,
-     
+      
   },
-
 
 
 
@@ -32,12 +35,12 @@ export default Vue.extend({
 </script>
 
 <style lang="scss">
-body {
-background-image: url("https://image.freepik.com/vecteurs-libre/papier-peint-motif-etoiles-filantes-pastel-scintillant_53876-99195.jpg");
-background-repeat: no-repeat;
-background-size:cover;
-height:100vh;
-width: auto;
-}
+// body {
+// background-image: url("");
+// background-repeat: no-repeat;
+// background-size:cover;
+// height:100vh;
+// width: auto;
+// }
  
 </style>

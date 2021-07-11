@@ -11,6 +11,8 @@ import AboutView from '../views/AboutView';
 import ContactView from '../views/ContactView';
 import ProjectsView from '../views/ProjectsView';
 import ResumeView from '../views/ResumeView';
+import AdminBoardView from '../views/AdminBoardView';
+import AdminConnectView from '../views/AdminConnectView';
 import ErrorView from '../views/ErrorView';
 
 // informer Vue qu'il doit utiliser le VueRouter
@@ -32,6 +34,10 @@ const routeList = [
     {name: 'Resume', path: '/Resume', component: ResumeView},
      // mettre le path '*' pour envoyer vers une page d'erreur   
     {name: 'Error', path: '*', component: ErrorView},
+    {name: 'AdminBoard', path: '/AdminBoard', component: AdminBoardView},
+    {name: 'AdminConnect', path: '*', component: AdminConnectView},
+    
+
     
 
 ];
