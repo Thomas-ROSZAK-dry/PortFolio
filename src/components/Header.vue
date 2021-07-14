@@ -31,7 +31,6 @@
          <a class="navbar-item">
             <strong><router-link :to= "{name:'Contact'}">Contact</router-link></strong>
           </a>
-
           </div>
           
       </div>
@@ -66,6 +65,13 @@ a {
    color:black;
    font-size:initial;
 }
-
-
+.navbar {
+  background:lightgrey;
+}
+.navbar-item{
+  background:lightgrey;
+}
+.navbar-menu {
+  padding: 0;
+}
 </style>

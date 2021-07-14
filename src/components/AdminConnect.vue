@@ -1,6 +1,7 @@
 <template>
-    <div><div class="field">
-  <label class="label">User</label>
+    <div class="admin-connect"  >
+      <div class="field">
+  <label class="label">Email</label>
   <div class="control">
     <input class="input" type="text" placeholder="Enter your name">
   </div>
@@ -22,7 +23,7 @@
 
 <div class="field is-grouped">
   <div class="control">
-    <button class="button is-link">Connexion</button>
+    <router-link to="/AdminBoard" class="button is-link">Connexion</router-link>
   </div>
   <div class="control">
     <button class="button is-link is-light">Cancel</button>
@@ -37,5 +38,7 @@
 </script>
 
 <style scoped>
-
+.admin-connect {
+   background:lightgrey;
+}
 </style>

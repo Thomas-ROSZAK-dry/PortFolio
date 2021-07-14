@@ -1,28 +1,29 @@
 <template>
   
    <div class="card">
-  <div class="card-image">
+  <div class="card-image image">
     <figure class="image">
-      <img  src="/assets/img/corner.jpg" alt="Placeholder image">
+      <img class="img" src="/assets/img/corner.jpg"  alt="Placeholder image">
          </figure>
   </div>
 
     <div class="card-content mb-6">
-    <div class="media mb-6 ">
+    <div class="media mb-6">
       <div class="media-left">
-        <figure class="image is-48x48  ">
-          <img src="/assets/img/photocv.jpg" alt="Placeholder image">
+        <figure class="image is-48x48 ml-6" >
+          <img class="photo" src="/assets/img/photocv.jpg" alt="Placeholder image">
         </figure>
       </div>
-      <div class="media-content">
-        <p class="title is-4">{{title}}</p>
-        <p class="subtitle is-6">{{email}}</p>
+
+      <div class="media-content mr-6">
+        <p class="is-size-3 has-text-weight-bold">{{title}}</p>
+        <p class="subtitle is-6 has-text-weight-bold">{{email}}</p>
       </div>
     </div>
 
     <div class="content has-text-weight-bold pt-2 pb-2 pl-2 pr-2">
       Hi  👋 <br>
- 🔭 I’m working on VueJS  and on my professional reorientation <br>
+ 🔭 I’m working on WORDPRESS and VueJS  and on my professional reorientation <br>
  🌱 I’m currently learning VueJS and NuxtJS <br>
  👯 I’m looking to collaborate on projects to improve my coding<br>
 🤔 I’m looking for help with backend end dev <br>
@@ -62,29 +63,25 @@ export default {
  width: 100vw;
 
  } */
-.main {
-    display: flex;
-    height: auto;
-    max-width: 60%;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .content {
-  border: solid 2px grey;
-  border-radius: 10px;
-}
-.title {
-  font-weight:bold;
-  
-}
-.subtitle {
-  font-weight: bold;
+  border: solid 2px black;
+  border-radius: 5px;
 }
 
 .card-image{
     display: flex;
     justify-content: center;
 }
-
+.img {
+    width: 80vw;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+.card {
+  background:lightgrey;
+}
+.photo {
+  border-radius: 5px;
+  border: 2px solid black;
+}
 </style>

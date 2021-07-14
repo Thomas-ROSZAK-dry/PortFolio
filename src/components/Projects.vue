@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="projects" >
       <h1></h1>
         Please find the link below to my different projects
     
@@ -17,5 +17,7 @@
 </script>
 
 <style scoped>
-
+.projects {
+    background: lightgrey;
+}
 </style>

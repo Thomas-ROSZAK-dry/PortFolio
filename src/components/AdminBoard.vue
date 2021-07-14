@@ -1,32 +1,32 @@
 <template>
 
-<section>
+<section class='messages' >
   <h2>Messages</h2>
  <div>
         <button @click="loadMessages" >Load Messages</button>
       </div>
 <ul>
 
-<resources-item v-for="result in results" 
+<messages-item v-for="result in results" 
 :key="result.id"  
 :name="result.name"
 :email="result.mail"
 :subject="result.subject"
 :message="result.message"
 >
-</resources-item>
+</messages-item>
 </ul>
 </section>
 </template>
 
 <script>
-import ResourcesItem from './ResourcesItem';
+import MessagesItem from './MessagesItem';
 import axios from "axios";
 
 
 export default {
   components: {
-    ResourcesItem,
+    MessagesItem,
        
       },
 
@@ -55,6 +55,9 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.messages {
+   background:lightgrey;
+}
+</style>  >
 
-</style>

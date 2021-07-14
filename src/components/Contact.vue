@@ -1,6 +1,7 @@
 <template>
-
+<div class="form" >
 <form @submit.prevent="submitData">
+   <p v-if="confirmMessage" >{{confirmMessage}}</p>
   <label class="label pt-3">Your Name</label>
       <div class="control name">
            <input id="name" class="input" type="text" placeholder="Enter your name" v-model.trim="enteredName" />
@@ -33,8 +34,9 @@
 </div>
  <p v-if="invalidInput"> One or more input fields are invalid. Please check your provided data.</p>
         <p v-if="error">{{error}}</p>
-</form>
 
+</form>
+ </div>
 
 
 </template>
@@ -51,6 +53,7 @@ import axios from "axios";
       enteredMessage:'',
       invalidInput: false,
       error:null,
+      confirmMessage:''
     };
   },
   methods: {
@@ -58,9 +61,10 @@ import axios from "axios";
       if (this.enteredName === '' || this.enteredEmail === '' || this.enteredSubject === '' || this.enteredMessage === '') {
         this.invalidInput = true;
         return;
-      }
+      }else
       this.invalidInput = false;
       this.error= null;
+      this.confirmMessage ='Your mail has been sent';
      
       
        axios.post('https://portfolio-6267e-default-rtdb.europe-west1.firebasedatabase.app/messages.json', {
@@ -103,4 +107,7 @@ textarea {
 .control {
   width: 80%;
  }
+.form {
+  background: lightgrey;
+}
 </style>

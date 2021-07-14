@@ -15,11 +15,13 @@
     "axios": "^0.21.1",
     "bulma": "^0.9.3",
     "core-js": "^3.6.5",
+    "firebase": "^9.0.0-beta.6",
     "fontawesome": "^5.6.3",
     "sass-loader": "^12.1.0",
     "src": "^1.1.2",
     "vue": "^2.6.14",
-    "vue-router": "^3.5.1"
+    "vue-router": "^3.5.1",
+    "vuefire": "^2.2.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -49,5 +51,17 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "## Her's my Portfolio made in VuejS",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomas-ROSZAK-dry/PortFolio.git"
+  },
+  "author": "thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thomas-ROSZAK-dry/PortFolio/issues"
+  },
+  "homepage": "https://github.com/Thomas-ROSZAK-dry/PortFolio#readme"
 }

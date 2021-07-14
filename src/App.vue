@@ -4,8 +4,7 @@
         <Header></Header>
         <RouterView></RouterView>
         <Footer></Footer>
-      
-          </div>
+           </div>
    
 </template>
 
@@ -32,15 +31,9 @@ export default Vue.extend({
 
 
 });
+
 </script>
 
 <style lang="scss">
-// body {
-// background-image: url("");
-// background-repeat: no-repeat;
-// background-size:cover;
-// height:100vh;
-// width: auto;
-// }
- 
-</style>
+
+ </style>

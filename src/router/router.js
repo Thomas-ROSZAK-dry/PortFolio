@@ -35,7 +35,7 @@ const routeList = [
      // mettre le path '*' pour envoyer vers une page d'erreur   
     {name: 'Error', path: '*', component: ErrorView},
     {name: 'AdminBoard', path: '/AdminBoard', component: AdminBoardView},
-    {name: 'AdminConnect', path: '*', component: AdminConnectView},
+    {name: 'AdminConnect', path: '/AdminConnect', component: AdminConnectView},
     
 
     
