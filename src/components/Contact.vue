@@ -26,7 +26,7 @@
             </div>
   <div class="field is-grouped mb-6  pt-5">
   <div class="control1 pl-4">
-    <button class="button is-link is-light">Submit</button>
+    <button class="button is-link is-light mb-4">Submit</button>
   </div>
   <div class="control">
     <button class="button is-link is-light ml-4">Cancel</button>
@@ -37,7 +37,6 @@
 
 </form>
  </div>
-
 
 </template>
 
@@ -93,21 +92,31 @@ import axios from "axios";
 </script>
 
 <style scoped>
-input {
-  width: 80%;
-  margin-left: 15px;
-}
-textarea {
-  width: 80%;
-   margin-left: 15px;
-}
+
 .fas {
   margin-left: 15px;
 }
-.control {
-  width: 80%;
- }
 .form {
-  background: lightgrey;
+  background: lightgray;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 150vh;
+ }
+input {
+  font-weight: 700;
+}
+textarea {
+  font-weight: 700;
+}
+.button.is-link.is-light {
+  color:grey;
+  font-weight: 700;
+}
+@media screen and (min-width: 1040px) {
+.form {
+    display: flex;
+    justify-content: center;
+    width: 100;
+}
 }
 </style>

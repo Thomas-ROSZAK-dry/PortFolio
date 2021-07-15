@@ -2,14 +2,16 @@
     <div class="admin-connect"  >
       <div class="field">
   <label class="label">Email</label>
-  <div class="control">
-    <input class="input" type="text" placeholder="Enter your name">
+  <div class="control has-icons-left has-icons-right">
+    <input class="input" type="text" placeholder="Email">
+    <span class="icon is-small is-left">
+      <i class="fas fa-envelope"></i>
   </div>
 </div>
 <div class="field">
   <label class="label">Password</label>
   <div class="control has-icons-left has-icons-right">
-    <input class="input" type="email" placeholder="Email">
+    <input class="input" type="password" placeholder="Password">
     <span class="icon is-small is-left">
       <i class="fas fa-envelope"></i>
     </span>
@@ -21,9 +23,9 @@
 <div class="field">
   </div>
 
-<div class="field is-grouped">
+<div class="field is-grouped pt-5">
   <div class="control">
-    <router-link to="/AdminBoard" class="button is-link">Connexion</router-link>
+    <router-link to="/AdminBoard" class="button is-link is-light">Connexion</router-link>
   </div>
   <div class="control">
     <button class="button is-link is-light">Cancel</button>
@@ -40,5 +42,15 @@
 <style scoped>
 .admin-connect {
    background:lightgrey;
+   padding-left: 100px;
+   padding-right: 100px;
+   height: 150vh; 
+}
+.button.is-link.is-light {
+  color:grey;
+  font-weight: 700;
+}
+input {
+  font-weight: 700;
 }
 </style>

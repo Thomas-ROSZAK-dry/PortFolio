@@ -84,4 +84,18 @@ export default {
   border-radius: 5px;
   border: 2px solid black;
 }
+@media screen and (min-width: 1040px) {
+  .img {
+    width:80vh;
+  }
+  .card-content {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+  }
+.content {
+  width:80vh;
+}
+}
 </style>
