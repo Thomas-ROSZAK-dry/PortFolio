@@ -14,13 +14,11 @@
           <img class="photo" src="/assets/img/photocv.jpg" alt="Placeholder image">
         </figure>
       </div>
-
-      <div class="media-content mr-6">
-        <p class="is-size-3 has-text-weight-bold">{{title}}</p>
-        <p class="subtitle is-6 has-text-weight-bold">{{email}}</p>
+        <div class="media-content mr-6">
+        <p class="is-size-3 has-text-weight-bold"><a href="https://github.com/Thomas-ROSZAK-dry" target="_blank" >{{title}}</a></p>
+        <router-link to="/Contact" ><p class="subtitle is-6 has-text-weight-bold">{{email}}</p></router-link>
       </div>
     </div>
-
     <div class="content has-text-weight-bold pt-2 pb-2 pl-2 pr-2">
       Hi  👋 <br>
  🔭 I’m working on WORDPRESS and VueJS  and on my professional reorientation <br>
@@ -83,6 +81,9 @@ export default {
 .photo {
   border-radius: 5px;
   border: 2px solid black;
+}
+a {
+  color: black;
 }
 @media screen and (min-width: 1040px) {
   .img {

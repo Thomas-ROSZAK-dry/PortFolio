@@ -10,8 +10,8 @@ I am applying now for a first experience or an internship in this sector.
 I am a determined person, ready to fully invest myself in this new career as a developer.</p>
 </div>
 <p class="mb-3 has-text-centered" >
-Email: thomasroszak@protonmail.com / Tel 06 29 52 06 99 https://github.com/Thomas-ROSZAK-dry</p>
- <p>Below some picture that represent me and my environment</p> 
+Email: thomasroszak@protonmail.com / <br> Tel 06 29 52 06 99 <br>https://github.com/Thomas-ROSZAK-dry</p>
+ <p>Below some pictures that represent me and my environment</p> 
     <div class=" is-flex is-flex-direction-column is-align-items-center has-text-weight-bold pt-5">      
         <img class="fit-picture pb-4"
      src="https://image.freepik.com/vecteurs-libre/gens-qui-regardent-film-au-cinema-film-ecran-audience-siege-spectacle-concert-presentation-auditorium-rangee-divertissement_1284-43691.jpg"
@@ -38,6 +38,14 @@ Email: thomasroszak@protonmail.com / Tel 06 29 52 06 99 https://github.com/Thoma
 }
 .fit-picture {
     border-radius:5px
+}
+.aboutme {
+   display: flex;
+   border: 2px grey solid;
+    width: 60vw;
+    margin-top:20px;
+    margin-bottom: 20px;
+    border-radius:5px;
 }
 @media screen and (min-width: 1040px) {
 .fit-picture {

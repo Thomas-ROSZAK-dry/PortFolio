@@ -4,8 +4,8 @@
       <p class="mt-4" >Please find the link below to my different projects</p>  
     
 <ul>
-    <li class="mt-6 pb-4" > <a href="">SlayerMonster Slayer</a></li>
-    <li class="mb-6" ><a href="">Eglise St Michel</a></li>
+    <li class="mt-6 pb-4" > <a href="https://eloquent-perlman-714fe6.netlify.app">SlayerMonster Slayer</a></li>
+    <li class="mb-6" ><a href="">Eglise St Michel Work in Progress </a></li>
     <li></li>
 
 </ul>
