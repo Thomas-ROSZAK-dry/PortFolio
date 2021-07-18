@@ -14,6 +14,7 @@ import ResumeView from '../views/ResumeView';
 import AdminBoardView from '../views/AdminBoardView';
 import AdminConnectView from '../views/AdminConnectView';
 import ErrorView from '../views/ErrorView';
+import WipView from '../views/WipView';
 
 // informer Vue qu'il doit utiliser le VueRouter
 // VueRouter est un "plugin" pour vue
@@ -36,7 +37,7 @@ const routeList = [
     {name: 'Error', path: '*', component: ErrorView},
     {name: 'AdminBoard', path: '/AdminBoard', component: AdminBoardView},
     {name: 'AdminConnect', path: '/AdminConnect', component: AdminConnectView},
-    
+    {name: 'Wip', path: '/Wip', component: WipView},
 
     
 
