@@ -2,7 +2,7 @@
 <template>
    <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item"><router-link :to= "{name:'Home'}">  <img src="https://image.flaticon.com/icons/png/512/1085/1085996.png" width="auto" height="auto"></router-link>
+    <a class="navbar-item "><router-link :to= "{name:'Home'}">  <img src="https://image.flaticon.com/icons/png/512/1085/1085996.png" width="auto" height="auto"></router-link>
     
     </a>
 
@@ -15,7 +15,7 @@
 
   <div id="nav-links" class="navbar-menu">
     <div class="navbar-start">
-      <a class="navbar-item">
+      <a class="navbar-item  ">
        <strong> <router-link :to= "{name:'Home'}">Home</router-link></strong>
       </a>
        

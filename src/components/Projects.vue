@@ -1,22 +1,25 @@
 <template>
     <div class="projects about is-flex is-flex-direction-column is-align-items-center has-text-weight-bold pt-5 " >
       <h1 class="  has-text-weight-bold is-size-2">MY PROJECTS</h1>
-      <p class=" text mt-4" >Please find the link below to my different projects done or in progress</p>  
+      <p class=" text mt-4 has-text-centered" >Please find the link below to my different projects done or in progress</p>  
     
 <ul>
     <div class="around" >
     <li class="mt-6" > <a href="https://compassionate-hermann-ce85e9.netlify.app">SlayerMonster Slayer</a></li>
     <p class="text pb-6" >Project build with: <br> VUEJS, JS, BULMA, HTML , CSS, </p>
     </div>
+     <p class=" work pb-3 is-size-3 is-undelined" >WORK IN PROGRESS:</p>
     <div class="around">
-    <li><router-link to="/Wip">Eglise St Michel Work in Progress </router-link></li>
+    <li><router-link to="/Wip">Eglise St Michel</router-link></li>
     <p class="text pb-6" >Project in progress build with : <br> HTML, CSS, BULMA, VUEJS, VUEFIRE
     </p>
-     <li><router-link to="/Wip"> Jean Renoir LE SEPTIEME ART  Work in Progress</router-link></li>
+   <p class=" work pb-3 is-size-3 is-undelined" >WORK IN PROGRESS:</p>
+     <li><router-link to="/Wip"> Jean Renoir LE SEPTIEME ART  </router-link></li>
     <p class="text pb-6" >Project in: <br> Full WORPDRESS
     </p>
-     <li><router-link to="/Wip"> Odrive  Work in Progress</router-link></li>
-    <p class="text pb-6" >Project in: <br> Full WORPDRESS
+     <p class=" work is-size-3 is-undelined" >WORK IN PROGRESS:</p>
+     <li><router-link to="/Wip"> Odrive</router-link></li>
+    <p class="text" >Project in: <br> Full WORPDRESS
     </p>
 </div>
 </ul>
@@ -30,7 +33,7 @@
 <style scoped>
 .projects {
     background: lightgrey;
-    height:100vh;
+    
 }
 a {
     color: brown;
@@ -39,5 +42,7 @@ a {
 .text {
   font-size: x-large;
 }
-
+.work {
+    text-decoration: underline;
+}
 </style>
