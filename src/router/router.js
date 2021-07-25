@@ -49,7 +49,18 @@ const routeList = [
 const router = new VueRouter({
     routes: routeList,
     // mettre l'url en de façon 'lisible' = mode history
-    mode: "history"
+    mode: "history",
+    scrollBehavior (to, from, savedPosition) {
+        if (savedPosition){
+            return savedPosition
+        }else {
+            const position = {}
+        if (to.hash){
+            position.selector =to.hash;
+            return false;
+        }
+      }
+    }
 });
 
 // exporter ce routeur

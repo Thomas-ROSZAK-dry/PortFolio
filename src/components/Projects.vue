@@ -7,14 +7,15 @@
     <div class="around" >
     <li class="mt-6" > <a href="https://compassionate-hermann-ce85e9.netlify.app">SlayerMonster Slayer</a></li>
     <p class="text pb-6" >Project build with: <br> VUEJS, JS, BULMA, HTML , CSS, </p>
-    </div>
+    
      <p class=" work pb-3 is-size-3 is-undelined" >WORK IN PROGRESS:</p>
-    <div class="around">
-    <li><router-link to="/Wip">Eglise St Michel</router-link></li>
+    
+    <li id="WorInProgress" ><router-link to="/Wip" 
+    >Eglise St Michel</router-link></li>
     <p class="text pb-6" >Project in progress build with : <br> HTML, CSS, BULMA, VUEJS, VUEFIRE
     </p>
    <p class=" work pb-3 is-size-3 is-undelined" >WORK IN PROGRESS:</p>
-     <li><router-link to="/Wip"> Jean Renoir LE SEPTIEME ART  </router-link></li>
+     <li><router-link to="/Wip"> Jean Renoir Le Septième Art  </router-link></li>
     <p class="text pb-6" >Project in: <br> Full WORPDRESS
     </p>
      <p class=" work is-size-3 is-undelined" >WORK IN PROGRESS:</p>
@@ -44,5 +45,8 @@ a {
 }
 .work {
     text-decoration: underline;
+}
+.around { 
+    text-align: center;
 }
 </style>

@@ -45,10 +45,10 @@
    padding-left: 100px;
    padding-right: 100px;
    height: 150vh; 
-    display: flex;
+   display: flex;
    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+   align-items: center;
+   justify-content: center;
 }
 .button.is-link.is-light {
   color:grey;
