@@ -5,21 +5,21 @@
     
 <ul>
     <div class="around" >
-    <li class="mt-6" > <a href="https://compassionate-hermann-ce85e9.netlify.app">SlayerMonster Slayer</a></li>
+    <li class="mt-6" > <a href="https://compassionate-hermann-ce85e9.netlify.app" target="_blank">SlayerMonster Slayer</a></li>
     <p class="text pb-6" >Project build with: <br> VUEJS, JS, BULMA, HTML , CSS, </p>
     
      <p class=" work pb-3 is-size-3 is-undelined" >WORK IN PROGRESS:</p>
     
-    <li id="WorInProgress" ><router-link to="/Wip" 
+    <li id="WorInProgress" ><router-link to="/Wip" target="_blank"
     >Eglise St Michel</router-link></li>
     <p class="text pb-6" >Project in progress build with : <br> HTML, CSS, BULMA, VUEJS, VUEFIRE
     </p>
    <p class=" work pb-3 is-size-3 is-undelined" >WORK IN PROGRESS:</p>
-     <li><router-link to="/Wip"> Jean Renoir Le Septième Art  </router-link></li>
+     <li><router-link to="/Wip" target="_blank"> Jean Renoir Le Septième Art  </router-link></li>
     <p class="text pb-6" >Project in: <br> Full WORPDRESS
     </p>
      <p class=" work is-size-3 is-undelined" >WORK IN PROGRESS:</p>
-     <li><router-link to="/Wip"> Odrive</router-link></li>
+     <li><router-link to="/Wip" target="_blank"> Odrive</router-link></li>
     <p class="text" >Project in: <br> Full WORPDRESS
     </p>
 </div>

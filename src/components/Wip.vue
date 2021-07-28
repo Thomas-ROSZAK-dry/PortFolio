@@ -1,7 +1,10 @@
 <template>
+
 <div class="work is-flex is-flex-direction-column is-align-items-center	 " >
   <h1 class="" > The page will be available soon</h1>
   <img src="/assets/img/wip.jpg/" alt=""> 
+  <router-link to="/" class="button is-link is-light">Home</router-link>
+
 </div>
 
 </template>

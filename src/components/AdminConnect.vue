@@ -1,5 +1,10 @@
 <template>
-    <div class="admin-connect"  >
+    
+    <div class="admin-connect">
+    <div class="home">
+    <router-link to="/" class="button is-link is-light">Home</router-link>
+  </div>
+       
       <div class="field">
   <label class="label">Email</label>
   <div class="control has-icons-left has-icons-right">
@@ -13,7 +18,7 @@
   <div class="control has-icons-left has-icons-right">
     <input class="input" type="password" placeholder="Password">
     <span class="icon is-small is-left">
-      <i class="fas fa-envelope"></i>
+      <i class="fas fa-key"></i>
     </span>
   
   </div>
@@ -57,4 +62,5 @@
 input {
   font-weight: 700;
 }
+
 </style>
